@@ -5,7 +5,7 @@ $email = addcslashes($_POST['email'])
 $assunto = addcslashes($_POST['assunto'])
 $mensagem = addcslashes($_POST['mensagem'])
 $to = "prfoose@gmail.com"; /*email do domínio*/
-$subjet = "Cotato site";
+$subjet = "Contato site";
 $body = "Nome: ".$nome. "\r\n".
         "Email: ".$email. "\r\n".
         "Assunto: ".$assunto;

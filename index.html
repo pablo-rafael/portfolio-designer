@@ -2,284 +2,406 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="img/logo-favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <script src="lib/jquery.min.js"></script>
-    <title>Pablo Rafael - Designer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pablo Rafael - Designer</title>
+  <link rel="shortcut icon" href="img/logo-favicon.ico" />
+  <link rel="stylesheet" href="assets/normalize/normalize.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/fontawesome/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/lightbox/css/lightbox.min.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <header class="menu-principal">
-        <main>
-            <div class="header-1">
-                <div class="logo">
-                    <a href="#inicio"><img src="./img/logo.png" /></a>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="#sobre">Sobre mim</a></li>
-                        <li><a href="#atuacao">Áreas de atuação</a></li>
-                        <li><a href="#portfolio">Portfólio</a></li>
-                        <li><a href="#contato">Contato</a></li>
-                    </ul>
-                </div>
-            </div>
-        </main>
-    </header>
-    <div id="inicio" class="top"></div>
-    <div class="banner-area">
-        <div class="banner-principal">
-            <div><video width="1300" height="771" autoplay="autoplay" muted loop>
-                    <source src="./img/PR - BANNER SITE 1300x773.mp4" type="video/mp4">
-                    <object data="" width="1300" height="771">
-                        <embed width="1300" height="771" src="./img/PR - BANNER SITE 1300x773.mp4">
-                    </object>
-                </video></div>
+  <header id="inicio" class="header top">
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#inicio">
+          <img src="./img/logo.png" />
+        </a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold rounded" type="button"
+          data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+          aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+        <div id="navbarResponsive" class="collapse navbar-collapse menu">
+          <ul class="navbar-nav ml-auto">
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#atuacao">Áreas de atuação</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
         </div>
+      </div>
+    </nav>
+  </header>
+  <section class="banner-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <video autoplay muted loop>
+            <source src="./img/VIDEO-BANNER-1920X1080.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
     </div>
-    <div id="sobre" class="top-sobre"></div>
-    <div class="banner-area2">
-        <div class="banner-info">
-            <div class="texto-b2">
-                <div class="profile"><img src="./img/profile-person.png" /></div>
-                <p class="t-sobre">Sobre mim</p>
-                <p class="t-apres">Sou Pablo Rafael e sou designer</p>
-                <p class="parag">Atuo como designer gráfico e faço a diferença com minhas habilidades. Busco sempre me
-                    atualizar quanto ao mercado e o mundo do design, além de buscar me aprimorar nas ferramentas de
-                    trabalho e nos meus conhecimentos.</p>
-                <div class="lista-s">
-                    <li><a><strong>Cidade:</strong> Fortaleza</a></li>
-                    <li><a><strong>Estado:</strong> Ceará</a></li>
-                    <li><a><strong>Formação:</strong> Univers. Estácio de Sá</a></li>
-                    <li><a><strong>Email:</strong> prfoose@gmail.com</a></li>
-                    <li><a><strong>Fone:</strong> +55 85 98833.1961</a></li>
-                    <li><a><strong>Idade:</strong> 28</a></li>
-                    <li><a><strong>País:</strong> Brasil</a></li>
-                    <li><a><strong>Facebook:</strong> @prfrankln19</a></li>
-                    <li><a><strong>Instagram:</strong> @prfrankln19</a></li>
-                    <li><a><strong>Behance:</strong> behance.net/prfranklin</a></li>
-                </div>
-            </div>
+  </section>
+  <div id="sobre" class="top-sobre"></div>
+  <section class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="profile text-sm-center">
+            <img src="./img/profile-person.png" />
+          </div>
         </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 texto-b2">
+          <p class="t-sobre">Sobre mim</p>
+          <p class="t-apres">Sou Pablo Rafael e sou designer</p>
+          <p class="parag">Atuo como designer gráfico e faço a diferença com minhas habilidades. Busco sempre me
+            atualizar quanto ao mercado e o mundo do design, além de buscar me aprimorar nas ferramentas de trabalho e
+            nos meus conhecimentos. </p>
+          <div class="lista-s">
+            <div><a><strong>Cidade:</strong> Fortaleza</a></div>
+            <div><a><strong>Estado:</strong> Ceará</a></div>
+            <div><a><strong>Formação:</strong> Univers. Estácio de Sá</a></div>
+            <div><a><strong>Email:</strong> prfoose@gmail.com</a></div>
+            <div><a><strong>Fone:</strong> +55 85 98833.1961</a></div>
+            <div><a><strong>Idade:</strong> 28</a></div>
+            <div><a><strong>País:</strong> Brasil</a></div>
+            <div><a><strong>Facebook:</strong> @prfrankln19</a></div>
+            <div><a><strong>Instagram:</strong> @prfrankln19</a></div>
+            <div><a><strong>Behance:</strong> behance.net/prfrankdivn</a></div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="skills">
-        <div class="bars-container">
-            <script src="js/script.js"></script>
-            <div class="bar">
-                <div class="bar-info">
-                    <div class="bar-title">Corel DRAW</div>
-                    <div class="bar-percent" id="percentCorelDraw">0%</div>
-                </div>
-                <div class="bar-empty">
-                    <div class="bar-fill" id="barCorelDraw"></div>
-                </div>
-            </div>
-            <div class="bar">
-                <div class="bar-info">
-                    <div class="bar-title">Adobe illustrator</div>
-                    <div class="bar-percent" id="percentAdobeillustrator">0%</div>
-                </div>
-                <div class="bar-empty">
-                    <div class="bar-fill" id="barAdobeillustrator"></div>
-                </div>
-            </div>
-            <div class="bar">
-                <div class="bar-info">
-                    <div class="bar-title">Adobe Photoshop</div>
-                    <div class="bar-percent" id="percentAdobePhotoshop">0%</div>
-                </div>
-                <div class="bar-empty">
-                    <div class="bar-fill" id="barAdobePhotoshop"></div>
-                </div>
-            </div>
-            <div class="bar">
-                <div class="bar-info">
-                    <div class="bar-title">Adobe Indesign</div>
-                    <div class="bar-percent" id="percentAdobeIndesign">0%</div>
-                </div>
-                <div class="bar-empty">
-                    <div class="bar-fill" id="barAdobeIndesign"></div>
-                </div>
-            </div>
-            <div class="bar">
-                <div class="bar-info">
-                    <div class="bar-title">After Effects</div>
-                    <div class="bar-percent" id="percentAfterEffects">0%</div>
-                </div>
-                <div class="bar-empty">
-                    <div class="bar-fill" id="barAfterEffects"></div>
-                </div>
-            </div>
-            <div class="bar">
-                <div class="bar-info">
-                    <div class="bar-title">Adobe Premiere</div>
-                    <div class="bar-percent" id="percentAdobePremiere">0%</div>
-                </div>
-                <div class="bar-empty">
-                    <div class="bar-fill" id="barAdobePremiere"></div>
-                </div>
-            </div>
+  </section>
+  <div class="container skills">
+    <div class="row bars-container">
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="bar">
+          <div class="bar-info">
+            <div class="bar-title">Corel DRAW</div>
+            <div class="bar-percent" id="percentCorelDraw">0%</div>
+          </div>
+          <div class="bar-empty">
+            <div class="bar-fill" id="barCorelDraw"></div>
+          </div>
         </div>
+        <div class="bar">
+          <div class="bar-info">
+            <div class="bar-title">Adobe illustrator</div>
+            <div class="bar-percent" id="percentAdobeillustrator">0%</div>
+          </div>
+          <div class="bar-empty">
+            <div class="bar-fill" id="barAdobeillustrator"></div>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="bar-info">
+            <div class="bar-title">Adobe Photoshop</div>
+            <div class="bar-percent" id="percentAdobePhotoshop">0%</div>
+          </div>
+          <div class="bar-empty">
+            <div class="bar-fill" id="barAdobePhotoshop"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="bar">
+          <div class="bar-info">
+            <div class="bar-title">Adobe Indesign</div>
+            <div class="bar-percent" id="percentAdobeIndesign">0%</div>
+          </div>
+          <div class="bar-empty">
+            <div class="bar-fill" id="barAdobeIndesign"></div>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="bar-info">
+            <div class="bar-title">After Effects</div>
+            <div class="bar-percent" id="percentAfterEffects">0%</div>
+          </div>
+          <div class="bar-empty">
+            <div class="bar-fill" id="barAfterEffects"></div>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="bar-info">
+            <div class="bar-title">Adobe Premiere</div>
+            <div class="bar-percent" id="percentAdobePremiere">0%</div>
+          </div>
+          <div class="bar-empty">
+            <div class="bar-fill" id="barAdobePremiere"></div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="experiencia" class="experiencia">
-        <div class="Exp-t1">
-            <li><a>Experiência</a></li>
-            <li><a>Capacitações</a></li>
-            <li><a>Outros trabalhos</a></li>
+  </div>
+  <div id="atuacao" class="atuacao">
+    <div id="experiencia" class="container mb-4 experiencia">
+      <div class="row no-gutters">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="group-title">
+            <div class="sobtitle">Experiência</div>
+            <div class="title">8 anos</div>
+          </div>
+          <div class="box-exp">
+            <ul class="pop-ups">
+              <li><a>Ipanema Comunicação</a></li>
+              <li><a>Wsete Design</a></li>
+              <li><a>Agência Ideias (freelancer)</a></li>
+              <li><a>Adesiva Sign</a></li>
+              <li><a>Gold Jet</a></li>
+              <li><a>Midigraf</a></li>
+              <li><a>Gráfica HBM</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="Exp-t2">
-            <li><a>8 anos</a></li>
-            <li><a>Cursos</a></li>
-            <li><a>Projetos</a></li>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="group-title">
+            <div class="sobtitle">Capacitações</div>
+            <div class="title">Cursos</div>
+          </div>
+          <div class="box-cursos">
+            <ul class="pop-ups">
+              <li><a>Design Gráfico</a></li>
+              <li><a>Web Design</a></li>
+              <li><a>Téc. em Hardware</a></li>
+              <li><a>Programador Jr.</a></li>
+            </ul>
+          </div>
         </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="group-title">
+            <div class="sobtitle">Outros trabalhos</a></div>
+            <div class="title">Projetos</div>
+          </div>
+          <div class="box-projetos">
+            <ul class="pop-ups">
+              <li><a>Red Bubble</a></li>
+              <li><a>Tee Public</a></li>
+              <li><a>Vandal</a></li>
+              <li><a>Banda Mesfray</a></li>
+              <li><a>Rádio Siará News</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="pop-ups">
-        <div class="box-exp">
-            <li><a>Ipanema Comunicação</a></li>
-            <li><a>Wsete Design</a></li>
-            <li><a>Agência Ideias (freelancer)</a></li>
-            <li><a>Adesiva Sign</a></li>
-            <li><a>Gold Jet</a></li>
-            <li><a>Midigraf</a></li>
-            <li><a>Gráfica HBM</a></li>
+    <div class="container box-atuacao">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 texto-at">
+          <p class="tt-atuacao">Áreas de atuação</p>
+          <p class="desc-atuacao">Trabalhos online e offline, desde material para redes sociais à impressos.</p>
         </div>
-        <div class="box-cursos">
-            <li><a>Ipanema Comunicação</a></li>
-            <li><a>Wsete Design</a></li>
-            <li><a>Agência Ideias (freelancer)</a></li>
-            <li><a>Adesiva Sign</a></li>
-            <li><a>Gold Jet</a></li>
-            <li><a>Midigraf</a></li>
-            <li><a>Gráfica HBM</a></li>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="box1">
+            <div class="img-des"><img src="./img/design.png" /></div>
+            <p class="design">Design Gráfico</p>
+            <p class="des-design">Desenvolvimento do layout de sites, blogs e landing pages e intermediação com
+              programadores para ativação na web.</p>
+          </div>
         </div>
-        <div class="box-projetos">
-            <li><a>Ipanema Comunicação</a></li>
-            <li><a>Wsete Design</a></li>
-            <li><a>Agência Ideias (freelancer)</a></li>
-            <li><a>Adesiva Sign</a></li>
-            <li><a>Gold Jet</a></li>
-            <li><a>Midigraf</a></li>
-            <li><a>Gráfica HBM</a></li>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="box1">
+            <div class="img-des"><img src="./img/web.png" /></div>
+            <p class="web">Web Design</p>
+            <p class="des-web">Desenvolvimento de peças para veículos online e offline. De materiais para redes redes
+              sociais a impressos.</p>
+          </div>
         </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="box1">
+            <div class="img-des"><img src="./img/motion.png" /></div>
+            <p class="motion">Motion Graphic</p>
+            <p class="des-motion">Desenvolvimento e edição de vídeos curtos e institucionais cartelados.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="atuacao" class="atuacao">
-        <div class="texto-at">
-            <p class="tt-atuacao">Áreas de atuação</p>
-            <p class="desc-atuacao">Trabalhos online e offline, desde material para redes sociais à impressos.</p>
-        </div>
-        <div class="box-atuacao">
-            <div class="box1">
-                <div class="img-des"><img src="./img/design.png" /></div>
-                <p class="design">Design Gráfico</p>
-                <p class="des-design">Desenvolvimento do layout de sites, blogs e landing pages e intermediação com
-                    programadores para ativação na web.</p>
-            </div>
-            <div class="box2">
-                <div class="img-web"><img src="./img/web.png" /></div>
-                <p class="web">Web Design</p>
-                <p class="des-web">Desenvolvimento de peças para veículos online e offline. De materiais para redes
-                    redes sociais a impressos.</p>
-            </div>
-            <div class="box3">
-                <div class="img-motion"><img src="./img/motion.png" /></div>
-                <p class="motion">Motion Graphic</p>
-                <p class="des-motion">Desenvolvimento e edição de vídeos curtos e institucionais cartelados.</p>
-            </div>
-        </div>
-    </div>
-    <div id="portfolio" class="top-port"></div>
-    <div class="portfolio">
-        <div class="texto-port">
+  </div>
+  <div id="portfolio" class="top-sobre"></div>
+  <section class="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div class="texto-port">
             <p class="tt-port">Portfólio</p>
             <p class="desc-port">Alguns projetos com as melhores soluções em design para cada perfil.</p>
+          </div>
         </div>
-        <div class="imagens">
-            <div class="im1"><a href=""><img src="./img/P01.png"></a></div>
-            <div class="im2"><a href=""><img src="./img/P02.png"></a></div>
-            <div class="im3"><a href=""><img src="./img/P03.png"></a></div>
-            <div class="im4"><a href=""><img src="./img/P04.png"></a></div>
-            <div class="im5"><a href=""><img src="./img/P05.png"></a></div>
-            <div class="im6"><a href=""><img src="./img/P06.png"></a></div>
-            <div class="im8"><a href=""><img src="./img/P08.png"></a></div>
-            <div class="im7"><a href=""><img src="./img/P07.png"></a></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div class="row text-center imagens">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <div class="element-portfolio">
+                <a href="img/P01.png" data-lightbox="roadtrip"><img src="img/P01.png"></a>
+              </div>
+              <div class="element-portfolio">
+                <a href="img/P06.png" data-lightbox="roadtrip"><img src="img/P06.png"></a>
+              </div>
+              <div class="element-portfolio">
+                <a href="img/P07.png" data-lightbox="roadtrip"><img src="img/P07.png"></a>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-lg-right">
+                  <div class="element-portfolio">
+                    <a href="img/P02.png" data-lightbox="roadtrip"><img src="img/P02.png"></a>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 text-lg-left">
+                  <div class="element-portfolio">
+                    <a href="img/P03.png" data-lightbox="roadtrip"><img src="img/P03.png"></a>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 text-lg-right">
+                  <div class="element-portfolio">
+                    <a href="img/P04.png" data-lightbox="roadtrip"><img src="img/P04.png"></a>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 text-lg-left">
+                  <div class="element-portfolio">
+                    <a href="img/P05.png" data-lightbox="roadtrip"><img src="img/P05.png"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                  <div class="element-portfolio">
+                    <a href="img/P08.png" data-lightbox="roadtrip"><img src="img/P08.png"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="behance">
-            <div class="cl-btn">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 behance d-flex flex-row-reverse">
+              <div class="cl-btn">
                 <a href="https://www.behance.net/prfranklin" target="_blank">
-                    <img src="./img/behance-btn.png"></a>
-            </div>
-            <div class="t-cl-port">
+                  <img src="./img/behance-btn.png"></a>
+              </div>
+              <div class="t-cl-port">
                 <p>Veja mais projetos no</p>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="banner-area3">
+  </section>
+  <div class="container-fluid banner-area3">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
         <div class="txt-div">
-            <p class="tit-div">Acompanhe meus projetos!</p>
-            <p class="p-div">Adquira estampas exclusivas com pegada geek e bem animadas.
-                Acesse os sites e veja os produtos disponíveis.</p>
+          <p class="tit-div">Acompanhe meus projetos!</p>
+          <p class="p-div">Adquira estampas exclusivas com pegada geek e bem animadas. <br>Acesse os sites e veja os
+            produtos disponíveis.</p>
         </div>
-        <img class="banner2" src="./img/banner2.png" />
-        <div class="botoes">
-            <div class="tp-btn">
-                <a href="https://www.teepublic.com/user/foose" target="_blank">
-                    <img src="./img/teepublic-btn.png" /></a></div>
-            <div class="rb-btn">
-                <a href="https://www.redbubble.com/people/rasgadow/shop" target="_blank">
-                    <img src="./img/red-bubble-btn.png" /></a></div>
-        </div>
+      </div>
     </div>
-    <div id="contato" class="contato">
-        <div class="texto-ctt">
-            <p class="tt-ctt">Entre em contato</p>
-            <p class="desc-ctt">Entre em contato e tire suas dúvidas ou solicite orçamento.</p>
+    <div class="row">
+      <div class="banner2">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 d-flex justify-center flex-lg-row-reverse">
+              <div class="botoes">
+                <div class="tp-btn">
+                  <a href="https://www.teepublic.com/user/foose" target="_blank">
+                    <img src="./img/teepublic-btn.png" /></a></div>
+                <div class="rb-btn">
+                  <a href="https://www.redbubble.com/people/rasgadow/shop" target="_blank">
+                    <img src="./img/red-bubble-btn.png" /></a></div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="telefone">
+      </div>
+    </div>
+  </div>
+  <section id="contato" class="contato">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 texto-ctt">
+          <p class="tt-ctt">Entre em contato</p>
+          <p class="desc-ctt">Entre em contato e tire suas dúvidas ou solicite orçamento.</p>
+        </div>
+      </div>
+      <div class="row order-mobile">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="telefone">
             <img class="tel-ico" src="./img/telefone.png" />
             <p class="ligue">Ligue</p>
             <p class="numero">+55 85 98833.1961</p>
-        </div>
-        <div class="mail">
+          </div>
+          <div class="mail">
             <img class="mail-ico" src="./img/email.png" />
             <p class="t-mail">Email</p>
             <p class="end-mail">prfoose@gmail.com</p>
-        </div>
-        <div class="social">
+          </div>
+          <div class="social">
             <li class="ico"><a href="https://www.behance.net/prfranklin" target="_blank">
-                    <img src="./img/behance-ico.png"></a></li>
+                <img src="./img/behance-ico.png"></a></li>
+            <li class="ico"><a href="https://vimeo.com/prfranklin" target="_blank">
+                <img src="./img/vm-ico.png"></a></li>
             <li class="ico"><a href="https://www.facebook.com/prfranklin19/" target="_blank">
-                    <img src="./img/facebook-ico.png"></a></li>
+                <img src="./img/facebook-ico.png"></a></li>
             <li class="ico"><a href="https://www.instagram.com/prfranklin19/" target="_blank">
-                    <img src="./img/instagram-ico.png"></a>
-            </li>
+                <img src="./img/instagram-ico.png"></a></li>
             <li class="ico"><a
-                    href="https://api.whatsapp.com/send?phone=5585988331961&text=Oi%20deixe%20sua%20mensagem!"
-                    target="_blank">
-                    <img src="./img/wpp-ico.png"></a></li>
+                href="https://api.whatsapp.com/send?phone=5585988331961&text=Oi%20deixe%20sua%20mensagem!"
+                target="_blank">
+                <img src="./img/wpp-ico.png"></a></li>
+          </div>
         </div>
-        <section class="sec-ctt">
-            <div class="formulario">
-                <form name="gform" enctype="text/plain" class="form" action="https://docs.google.com/forms/d/1VAlKAILXGVV-DRfaKq0nwuhPrOYsXuETtamBVe4rxRo/prefill" target="hidden_iframe" onsubmit="submitted=true;" method="POST">
-                    <input class="nome" name="nome" placeholder="Seu nome..."></input>
-                    <input class="email" name="email" placeholder="Seu email..."></input>
-                    <input class="assunto" name="assunto" placeholder="Assunto..."></input>
-                    <textarea class="textarea" name="mensagem" placeholder="Digite sua mensagem..."></textarea>
-                    <input class="enviar" type="submit" name="BTEnvia" value="Enviar">
-                </form>
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-    <script src="lib/jquery.min.js"></script>
-<script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
-$('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(2000);
-  $('#gform').prepend('Your submission has been processed...');
-  });
-</script>
+        <div class="col-sm-12 col-md-6 col-lg-8">
+          <form class="form" action="" method="POST">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <input class="nome" name="nome" placeholder="Seu nome..." />
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <input class="email" name="email" placeholder="Seu email..." />
+              </div>
             </div>
-        </section>
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <input class="assunto" name="assunto" placeholder="Assunto..." />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <textarea class="textarea" name="mensagem" placeholder="Digite sua mensagem..."></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12 d-flex flex-row-reverse">
+                <input class="enviar" type="submit" name="BTEnvia" value="Enviar">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-    <div class="rodape">Copyright 2020 © Pablo Rafael. All Right Reserved.</div>
+  </section>
+  <div class="container-fluid rodape">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">Copyright 2020 © Pablo Rafael. All Right Reserved.</div>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="assets/fontawesome/fontawesome-all.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/lightbox/js/lightbox.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

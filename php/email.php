@@ -4,13 +4,13 @@ $nome = addcslashes($_POST['nome'])
 $email = addcslashes($_POST['email'])
 $assunto = addcslashes($_POST['assunto'])
 $mensagem = addcslashes($_POST['mensagem'])
-$to = "prfoose@gmail.com"; /*email do domínio*/
-$subjet = "Contato site";
+$to = ""; /*email do domínio*/
+$subjet = "Cotato site";
 $body = "Nome: ".$nome. "\r\n".
         "Email: ".$email. "\r\n".
         "Assunto: ".$assunto;
         "Mensagem: ".$mensagem;
-$header = "From:prfoose@gmail.com"."\r\n". /*email do domínio*/
+$header = "From:"."\r\n". /*email do domínio*/
             ."Reply-To:".$email."\e\n".
             ."X=Mailer:PHP/".phpversion();
 if(mail($to, $subjet, $body, $header)){

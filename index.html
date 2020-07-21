@@ -260,13 +260,22 @@
         </div>
         <section class="sec-ctt">
             <div class="formulario">
-                <form class="form" action="https://forms.gle/atCeUwrUzApAS2Q17" method="POST">
+                <form name="gform" class="form" action="https://forms.gle/atCeUwrUzApAS2Q17" method="POST">
                     <input class="nome" name="nome" placeholder="Seu nome..."></input>
                     <input class="email" name="email" placeholder="Seu email..."></input>
                     <input class="assunto" name="assunto" placeholder="Assunto..."></input>
                     <textarea class="textarea" name="mensagem" placeholder="Digite sua mensagem..."></textarea>
                     <input class="enviar" type="submit" name="BTEnvia" value="Enviar">
                 </form>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+    <script src="lib/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Your submission has been processed...');
+  });
+</script>
             </div>
         </section>
     </div>

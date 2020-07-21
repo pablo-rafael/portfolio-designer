@@ -654,7 +654,7 @@ form input, form textarea {
 
   .experiencia {
     max-width: 815px;
-    top: -40px;
+    top: -57px;
   }
 
   .banner-area {
@@ -662,7 +662,7 @@ form input, form textarea {
   }
 
   .box-atuacao {
-    padding-top: 25px;
+    /*padding-top: 25px;*/
     margin: 0 auto;
     width: 984px;
   }
@@ -747,4 +747,4 @@ form input, form textarea {
 .texto-ctt {
     margin: 0 auto 15px;
     position: relative;
-}
+}}

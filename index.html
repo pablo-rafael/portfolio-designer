@@ -363,28 +363,28 @@
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-8">
-          <form class="form" action="https://formspree.io/xbjzqdlb" method="POST" target="_blank">
+          <form class="form" method="POST">
             <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-6">
-                <input class="nome" name="nome" placeholder="Seu nome..." />
+                <input class="nome" id="name" name="nome" placeholder="Seu nome..." />
               </div>
               <div class="col-sm-12 col-md-6 col-lg-6">
-                <input class="email" name="email" placeholder="Seu email..." />
+                <input class="email" id="email" name="email" placeholder="Seu email..." />
               </div>
             </div>
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-12">
-                <input class="assunto" name="assunto" placeholder="Assunto..." />
+                <input class="assunto" id="about" name="assunto" placeholder="Assunto..." />
               </div>
             </div>
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-12">
-                <textarea class="textarea" name="mensagem" placeholder="Digite sua mensagem..."></textarea>
+                <textarea class="textarea" id="message" name="mensagem" placeholder="Digite sua mensagem..."></textarea>
               </div>
             </div>
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-12 d-flex flex-row-reverse">
-                <button class="enviar" type="submit" name="BTEnvia" value="Enviar">Enviar</button>
+                <input class="enviar" type="submit" name="BTEnvia" value="Enviar">
               </div>
             </div>
           </form>
@@ -402,6 +402,7 @@
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/lightbox/js/lightbox.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/scriptemail.js"></script>
 </body>
 
 </html>

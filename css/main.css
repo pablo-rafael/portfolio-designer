@@ -565,14 +565,31 @@ form input, form textarea {
   margin-bottom: 15px;
 }
 
+.container_v {
+  width: 100%;
+  background-color: #000000;
+}
+
+.row2 {margin: 0;}
+
 .about .container {
   background-color: #70e332;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
+.dim {
+  padding: 0;
+  margin: 0;
+}
+
 .skills {
   padding-bottom: 60px;
+}
+
+.bars-container {
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .navbar-toggler {
@@ -603,6 +620,10 @@ form input, form textarea {
 }
 
 @media(min-width: 984px) {
+  .container_v {
+    max-width: 984px;
+    width: 984px;
+  }
   .container {
     max-width: 984px;
     width: 984px;
@@ -621,11 +642,16 @@ form input, form textarea {
     margin-top: 150px;
   }
 
+  .container_v {
+    margin: 0 auto;
+    width: 984px;
+    position: relative;
+  }
+
   .about .container {
     margin: -41px auto 0;
     width: 984px;
     position: relative;
-    /*padding-left: 60px;*/
     padding-right: 60px;
   }
 
@@ -650,7 +676,6 @@ form input, form textarea {
     text-align: justify;
     list-style: none;
     columns: 2;
-    /*column-gap: 25px;*/
   }
 
   .experiencia {
@@ -658,12 +683,7 @@ form input, form textarea {
     top: -57px;
   }
 
-  .banner-area {
-    /*height: 771px;*/
-  }
-
   .box-atuacao {
-    /*padding-top: 25px;*/
     margin: 0 auto;
     width: 984px;
   }

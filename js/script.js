@@ -10,7 +10,7 @@ $(function() {
     let elementTop = $(scrollTarget).offset().top;
 
     if ((scrollTop >= (elementTop - 300)) && alreadyRun == false) {
-      runRatioAnimator('#barCorelDraw', '#percentCorelDraw', 80);
+      runRatioAnimator('#barCorelDraw', '#percentCorelDraw', 70);
       runRatioAnimator('#barAdobeillustrator', '#percentAdobeillustrator', 80);
       runRatioAnimator('#barAdobePhotoshop', '#percentAdobePhotoshop', 80);
       runRatioAnimator('#barAdobeIndesign', '#percentAdobeIndesign', 60);
